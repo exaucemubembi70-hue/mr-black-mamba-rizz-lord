@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gihut — Mr Black Mamba</title>
+  <meta name="description" content="Gihut — site personnel de Mr Black Mamba. Gaming, web et créations.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#accueil">Gihut<span>.</span></a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navLinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="accueil" class="hero">
+      <div class="hero-card">
+
+        <p class="tag">● DEV MODE</p>
+
+        <h1>Mr Black Mamba</h1>
+
+        <p class="subtitle">
+          Bienvenue sur <strong>Gihut</strong>.
+        </p>
+
+        <p class="intro">
+          Un espace personnel pour présenter mes créations,
+          mes projets web et mes délires autour du gaming et du numérique.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="#projets">Voir mes projets</a>
+          <a class="btn" href="#contact">Me contacter</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="apropos" class="section">
+
+      <p class="eyebrow">01 — À PROPOS</p>
+
+      <h2>Qui suis-je ?</h2>
+
+      <p class="section-text">
+        Je suis Mr Black Mamba, passionné par le gaming,
+        le web et la création. Gihut rassemble mes idées
+        et mes projets dans une interface simple et moderne.
+      </p>
+
+      <div class="stats">
+
+        <div class="stat">
+          <strong>01</strong>
+          <span>Créateur</span>
+        </div>
+
+        <div class="stat">
+          <strong>WEB</strong>
+          <span>Création</span>
+        </div>
+
+        <div class="stat">
+          <strong>∞</strong>
+          <span>Idées</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="projets" class="section">
+
+      <p class="eyebrow">02 — PROJETS</p>
+
+      <h2>Mes projets</h2>
+
+      <div class="projects">
+
+        <article class="project">
+
+          <div class="number">01</div>
+
+          <h3>Gihut</h3>
+
+          <p>
+            Mon espace web personnel pour présenter
+            mes créations et mes projets.
+          </p>
+
+          <button class="project-btn" data-project="Gihut">
+            Voir le projet →
+          </button>
+
+        </article>
+
+
+        <article class="project">
+
+          <div class="number">02</div>
+
+          <h3>Gaming</h3>
+
+          <p>
+            Projets et créations autour du gaming,
+            des jeux vidéo et du contenu.
+          </p>
+
+          <button class="project-btn" data-project="Gaming">
+            Voir le projet →
+          </button>
+
+        </article>
+
+
+        <article class="project">
+
+          <div class="number">03</div>
+
+          <h3>À venir</h3>
+
+          <p>
+            De nouvelles créations sont en préparation.
+            La suite arrive bientôt.
+          </p>
+
+          <button class="project-btn" data-project="À venir">
+            Bientôt →
+          </button>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section id="contact" class="section contact">
+
+      <p class="eyebrow">03 — CONTACT</p>
+
+      <h2>On construit quelque chose ?</h2>
+
+      <p class="section-text">
+        Envoie un message directement depuis Gihut.
+      </p>
+
+      <form id="contactForm">
+
+        <label>
+          Nom
+          <input
+            id="name"
+            type="text"
+            placeholder="Ton nom"
+            required
+          >
+        </label>
+
+        <label>
+          Message
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Ton message..."
+            required
+          ></textarea>
+        </label>
+
+        <button class="btn primary" type="submit">
+          Envoyer
+        </button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>
+      © <span id="year"></span> Gihut — Mr Black Mamba.
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+          </html>
